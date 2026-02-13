@@ -1,11 +1,32 @@
-/* 
+.luz-roja {
+    width: 110px;
+    height: 110px;
+    background-color: red;
+    border-radius: 50%;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.luz-amarilla {
+    width: 110px;
+    height: 110px;
+    background-color: yellow;
+    border-radius: 50%;
+}
 
-*/
+.luz-verde {
+    width: 110px;
+    height: 110px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.luz-purpura {
+    width: 110px;
+    height: 110px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.brillo {
+    -webkit-box-shadow: 0px 0px 33px 32px rgba(251, 255, 0, 0.72);
+    box-shadow: 0px 0px 33px 32px rgba(251, 255, 0, 0.72);
+}
